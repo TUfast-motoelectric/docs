@@ -1,3 +1,34 @@
 site_name: TuFast MotoElectric
+site_url: https://tufast-motoelectric.github.io
+nav:
+  - Home: index.md
+  - ECU:
+      - Technical: ECU/Technical.md
+      - Software: ECU/Software.md
+      - Source Code: ECU/SourceCode.md
+  - Dashboard: Dashboard.md
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 theme:
     name: material
+    features:
+      - navigation.instant
+      - navigation.tabs
+    palette:
+        - scheme: default
+          toggle:
+              icon: material/brightness-7
+              name: Switch to dark mode
+        - scheme: slate
+          toggle:
+              icon: material/brightness-4
+              name: Switch to light mode
