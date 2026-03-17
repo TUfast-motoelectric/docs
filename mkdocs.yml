@@ -6,7 +6,8 @@ nav:
       - Technical: ECU/Technical.md
       - Software: ECU/Software.md
       - Source Code: ECU/SourceCode.md
-  - Dashboard: Dashboard.md
+  - Dashboard:
+      - Software: Dashboard/Software.md
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

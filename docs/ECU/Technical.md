@@ -1,5 +1,7 @@
 ![ECU board](../images/ECU.png){ align=right }
 
+The numbers correspond to the cable from the connector.
+
 <div class="grid" markdown>
 
 === "Left"
