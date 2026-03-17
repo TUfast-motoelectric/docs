@@ -3,7 +3,7 @@
 ## Setup
 
 - Download & install the [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
-- Clone the repository and checkout the master branch (if its not the default branch)
+- Clone the [main-ECU](https://github.com/TUfast-motoelectric/main-ECU) and checkout the master branch
 - Import the project via **Import**->**STM32CubeMX/STM32CubeIDE Project**->`<Select the cloned repository>`
 - Compile & upload the code via the IDE
 
@@ -40,12 +40,3 @@ sudo udevadm trigger
 ```
 
 Unplug & replug the board
-
-# Project structure
-
-### Important files
-
-- `Core/Src/main.c` - Main file; inits, callbacks, clocks
-- `Core/Src/motostruct.c` - everything related to `MotoState` & `RaceState`
-- `Core/Src/CAN_functions.c` - CAN related functions and conversion methods; **also a lot of TODOs, so probably revisit**
-- rest is more or less unrelated and mostly structural stuff
